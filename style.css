@@ -1,0 +1,125 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #bbe0f8;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 7rem;
+}
+
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+#Employee-card {
+  text-align: center;
+  display: inline-flex;
+  justify-items: center;
+  flex-wrap: wrap;
+  margin: 7rem;
+  gap: 5rem;
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.inputs>article>p {
+  flex: 2;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000000;
+}
+
+.inputs>article {
+  flex: 2;
+  min-height: 60vh;
+  font-size: xx-large;
+  margin-top: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000000;
+  margin-left: 5rem;
+}
+
+.inputs>aside {
+  flex: 3;
+  margin-top: 5rem;
+}
+
+.h,
+p,
+article,
+aside {
+  padding: 1em;
+}
+
+.input {
+  margin: 1rem;
+  padding: 1em;
+  background-color: #73bff3;
+
+}
+
+.input:focus {
+  background-color: #73bff3;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #000000;
+}
+
+select {
+  width: 12rem;
+}
+
+.button {
+  margin-top: 2rem;
+  color: #000000;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 9.5em;
+  background: #73bff3;
+  border: 1px solid #000000;
+
+}
+
+@media all and (max-width: 640px) {
+  .inputs>article {
+    margin-left: 0rem;
+  }
+
+  .h {
+    height: 20vh;
+  }
+}
+
+@media all and (max-width: 535px) {
+  .h {
+    height: 20vh;
+  }
+
+  .col-1 {
+    margin-left: 2rem;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .col-1 {
+    margin-left: 1rem;
+  }
+}
