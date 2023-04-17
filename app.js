@@ -70,9 +70,9 @@ function render() {
     img0.src = `${empData[i].userImg}`;
     let divData = document.createElement("div");
     let p1 = document.createElement("p");
-    p1.textContent = ` ${empData[i].userName} : ${empData[i].userID}`;
+    p1.textContent = ` ${empData[i].userName} - ${empData[i].userID}`;
     let p2 = document.createElement("p");
-    p2.textContent = `  ${empData[i].userDepartment} : ${empData[i].userLevel}`;
+    p2.textContent = `  ${empData[i].userDepartment} - ${empData[i].userLevel}`;
     let p3 = document.createElement("p");
     p3.textContent = `Salary: ${empData[i].userSalary}`;
 
